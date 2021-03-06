@@ -42,6 +42,7 @@ class Sample extends Component {
                     <div>
                     <h4>Add : {this.state.a + this.state.b}</h4>
                     <h4>Subtract: {this.state.a - this.state.b} </h4>
+                    <h4>Multiply: {this.state.a * this.state.b}</h4>
                     </div>
                 ) : (
                     <div>CLick Here</div>
